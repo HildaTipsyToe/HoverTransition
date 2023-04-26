@@ -1,0 +1,23 @@
+div{
+    height: 100vh;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+}
+.btn{
+    font-size: 3rem;
+    background-color: black;
+    /* transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s; */
+
+    /* transition: transform 1s, color 1s, background-color 1s;Behøver ikke 0s eller ease, da det er defualt */
+    transition: all 1s;
+}
+
+.btn:hover{
+    color: white;
+    transform: translateY(100px);
+    /* background-color: White; */
+}
